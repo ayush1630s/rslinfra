@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm [Your Name], a [Your Profession]</p>
+        <a href="#portfolio" class="cta-button">See My Work</a>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>My Work</h2>
+        <div class="portfolio-grid">
+            <!-- Add your work items here -->
+            <div class="portfolio-item">
+                <img src="image1.jpg" alt="Project 1">
+                <p>Project Description</p>
+            </div>
+            <!-- Repeat for more projects -->
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I'm a [Your Profession] with [X] years of experience. I specialize in [your specializations].</p>
+    </section>
+
+    <section id="blog" class="blog">
+        <h2>Blog</h2>
+        <p>Check out my latest articles!</p>
+        <ul>
+            <li><a href="#">Article 1</a></li>
+            <li><a href="#">Article 2</a></li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name] | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
